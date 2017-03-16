@@ -1,2 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minecraft</title>
+  </head>
+</html>
+
 What kind of information about the web page can the <head> element contain? Well, if you look at the top of your browser (or at one of 
-the tabs you may have open in this browser window), you'll notice the words Learn HTML & CSS
+the tabs you may have open in this browser window), you'll notice the words Learn HTML & CSS: Part 1, which is the title of this web 
+page. The browser displays the title of the page because the title can be specified directly inside of the <head> element, by using a
+<title> element.
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My HTML Program</title>
+  </head>
+</html>
+If we were to open a file containing the HTML code in the example above, the browser would display the words My HTML Program in the 
+title bar (or in the tab's title).
