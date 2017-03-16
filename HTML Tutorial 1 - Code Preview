@@ -76,3 +76,10 @@ a.btn:hover {
 	-webkit-transition: box-shadow 1s ease;
 	transition: box-shadow 1s ease;
 }
+
+HTML is the language used to create the web pages you visit everyday. It provides a logical way to structure content for web pages.
+Let's analyze the acronym "HTML", as it contains a lot of useful information. HTML stands for HyperText Markup Language.
+A markup language is a computer language that defines the structure and presentation of raw text. Markup languages work by 
+surrounding raw text with information the computer can interpret, "marking it up" for processing.
+HyperText is text displayed on a computer or device that provides access to other text through links, also 
+known as “hyperlinks”. In fact, you probably clicked on many, many hyperlinks on your path to this HTML tutorial here on GitHub!
