@@ -27,7 +27,7 @@
 </html>
 
 In the last unit, you learned about the minimum amount of HTML code required to successfully structure a web page, sometimes referred 
-to as "boilerplate code."We added a declaration, a head, a title, and a body, but we still need content that the web browser can 
-display. In this unit, we'll learn how to use some of the most common HTML elements that add content to web pages.Keep in mind that 
+to as "boilerplate code." We added a declaration, a head, a title, and a body, but we still need content that the web browser can 
+display. In this unit, we'll learn how to use some of the most common HTML elements that add content to web pages. Keep in mind that 
 HTML was originally created to markup, or present, text. The first few units of this course will focus solely on how HTML can be used 
 to mark up text. Later in the course, we'll dive deeper into more advanced styling techniques using CSS.
