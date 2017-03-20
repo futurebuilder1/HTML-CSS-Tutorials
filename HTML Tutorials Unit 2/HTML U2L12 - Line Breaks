@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  	<title>Animals Around the World</title>
+	</head>
+	<body>
+    <h1>The Brown Bear</h1>
+    <a
+    href="https://en.wikipedia.org/wiki/Brown_bear"
+		target="_blank">Learn More</a>
+    <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+    <p>The following are subspecies of bears:</p>
+    <ul>
+      <li>Arctos</li>
+      <li>Collarus</li>
+      <li>Horribilis</li>
+      <li>Nelsoni (extinct)</li>
+    </ul>
+    <p>The following countries have the largest populations<br />of brown bears:</p>
+    <ol>
+      <li>Russia</li>
+      <li>United States</li>
+      <li>Canada</li>
+    </ol>
+    <a href="https://en.wikipedia.org/wiki/Brown_bear"
+		target="_blank"><img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" alt="A picture of a brown bear in a forest."/></a>
+	</body> 
+</html>
+
+You saw how modifying the spacing between code in an HTML file doesn't affect the positioning of elements in the browser. If you are 
+interested in modifying the spacing in the browser, you can use HTML's line break element: <br />. The line break element is one 
+self-closing tag. You can use it anywhere within your HTML code and a line break will be shown in the browser.
+
+Shall I compare thee to a summer's day?<br />Thou art more lovely and more temperate
+
+The code in the example above will result in an output that looks like the following:
+
+Shall I compare thee to a summer's day?
+Thou art more lovely and more temperate
+
+Note: Line breaks are not the standard way of manipulating the positioning of HTML elements, but it's likely that you'll come across 
+them every now and then. In later units, you'll learn more advanced techniques for positioning HTML elements.
