@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  	<title>Animals Around the World</title>
+	</head>
+	<body>
+    <h1>The Brown Bear</h1>
+    <a
+    href="https://en.wikipedia.org/wiki/Brown_bear"
+		target="_blank">Learn More</a>
+    <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+    <p>The following are subspecies of bears:</p>
+    <ul>
+      <li>Arctos</li>
+      <li>Collarus</li>
+      <li>Horribilis</li>
+      <li>Nelsoni (extinct)</li>
+    </ul>
+    <p>The following countries have the largest populations of brown bears:</p>
+    <ol>
+      <li>Russia</li>
+      <li>United States</li>
+      <li>Canada</li>
+    </ol>
+    <a href="https://en.wikipedia.org/wiki/Brown_bear"
+		target="_blank"><img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" alt="A picture of a brown bear in a forest."/></a>
+	</body> 
+</html>
+
+You've probably visited websites where not all links were made up of text. Maybe the links you clicked on were images, or some other 
+form of content. So far, we've added links that were made up of only text, like the following:
+
+<a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank">Prickly Pear</a>
+
+Text-only links, however, would significantly decrease your flexibility as a web developer! Thankfully, HTML allows you to turn nearly 
+any element into a link by wrapping that element with an anchor element. With this technique, it's possible to turn images into links by 
+simply wrapping the <img> element with an <a> element.
+
+<a href="https://en.wikipedia.org/wiki/Opuntia" target="_blank"><img src="#" alt="A red prickly pear fruit"/></a>
+
+In the example above, an image of a prickly pear has been turned into a link by wrapping the outside of the <img> element with an 
+<a> element.
