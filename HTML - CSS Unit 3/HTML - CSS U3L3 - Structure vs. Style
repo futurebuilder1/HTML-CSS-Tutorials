@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+	<style>
+    * {
+  		font-family: 'Georgia', 'Times', serif;
+		}
+
+		a {
+  		color: SeaGreen;
+  		text-decoration: none;
+		}
+
+		img {
+  		border-radius: 100%;
+		}
+  </style>
+</head>
+<body>
+  <h1>The Brown Bear</h1>
+  <!-- A section that describes the brown bear -->
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear">Learn More</a>
+  <p>Here are some bear species:</p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  <p>The following countries have the largest populations of brown bears:</p>
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" /></a>
+</body> 
+</html>
+
+Although the <style> element allows you to write CSS code within HTML files, this mixture of HTML and CSS can result in code that is 
+difficult to read and maintain. It's common for developers to add substantial amounts of custom CSS styling to a web page. When all 
+of that CSS code is placed within a <style> element in an HTML file, you risk the following two things:
+1. Creating a large HTML file that is difficult to read and maintain (by you and other developers). Overall, this can result in an 
+inefficient workflow.
+2. Maintaining a clear distinction between web page structure (HTML) and web page styling (CSS).
