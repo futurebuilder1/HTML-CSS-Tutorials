@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+  <link href="/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <h1>The Brown Bear</h1>
+  <!-- A section that describes the brown bear -->
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear">Learn More</a>
+  <p>Here are some bear species:</p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  <p>The following countries have the largest populations of brown bears:</p>
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank"><img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg"/></a>
+</body> 
+</html>
+
+* {
+  	font-family: 'Georgia', 'Times', serif;
+	}
+
+a {
+  	color: SeaGreen;
+  	text-decoration: none;
+	}
+
+img {
+  	border-radius: 100%;
+}
+
+Perfect! We successfully separated structure (HTML) from styling (CSS), but why does the web page look continue to look so bland? The 
+CSS code now lives in a separate CSS file called style.css — shouldn't that have worked without issue? Not exactly. When HTML and CSS 
+code are in separate files, the HTML file must know exactly where the CSS code is kept, otherwise, the styling can't be applied the 
+web page. In order to apply the styling to the web page, we'll have to link the HTML file and the CSS file together. You can use the 
+<link> element to link the HTML and CSS files together. The <link> element must be placed within the head of the HTML file. It is a 
+self-closing tag and requires the following three attributes:
+1. href - like the anchor element, the value of this attribute must be the address, or path, to the CSS file.
+2. type - this attribute describes the type of document that you are linking to (in this case, a CSS file). The value of this 
+attribute should be set to text/css.
+3. rel - this attribute describes the relationship between the HTML file and the CSS file. Because you are linking to a stylesheet, 
+the value should be set to stylesheet.
+
+When linking an HTML file and a CSS file together, the <link> element will look like the following:
+
+<link href="https://www.codecademy.com/stylesheets/style.css" type="text/css" rel="stylesheet">
+
+Note that in the example above the path to the stylesheet is a URL:
+
+https://www.codecademy.com/stylesheets/style.css
+
+Specifying the path to the stylesheet using a URL is one way of linking a stylesheet. If the CSS file is stored in the same directory 
+as your HTML file, then you can specify a relative path instead of a URL, like so:
+
+<link href="/style.css" type="text/css" rel="stylesheet">
+
+Using a relative path is very common way of linking a stylesheet.
