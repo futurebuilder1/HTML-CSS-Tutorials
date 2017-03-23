@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+</head>
+<body>
+  <h1>The Brown Bear</h1>
+  <!-- A section that describes the brown bear -->
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear">Learn More</a>
+  <p>Here are some bear species:</p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  <p>The following countries have the largest populations of brown bears:</p>
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" /></a>
+</body> 
+</html>
+
+* {
+  	font-family: 'Georgia', 'Times', serif;
+	}
+
+a {
+  	color: SeaGreen;
+  	text-decoration: none;
+	}
+
+img {
+  	border-radius: 100%;
+}
+
+Fortunately, the following solution will help you avoid creating large HTML files that mix in CSS code: a CSS file! HTML files are 
+meant to contain only HTML code. Similarly, CSS files are meant to contain only CSS code. You can create a CSS file by using the 
+.css file name extension, like so: style.css. With a CSS file, you can write all the CSS code needed to style a page without having 
+to sacrifice the readability and maintainability of your HTML file.
