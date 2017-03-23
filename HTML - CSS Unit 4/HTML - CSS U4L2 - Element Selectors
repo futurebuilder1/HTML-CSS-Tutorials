@@ -1,0 +1,45 @@
+h1 {
+  
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <h1>The Brown Bear</h1>
+  <!-- A section that describes the brown bear -->
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear">Learn More</a>
+  <p>Here are some bear species:</p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  <p>The following countries have the largest populations of brown bears:</p>
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" /></a>
+</body> 
+</html>
+
+We've discussed styling HTML elements using CSS, but how is it actually done? To style an HTML element using CSS, you must first select 
+that element in the CSS file. For example, to style a <p> element, the syntax to select it using CSS is:
+
+p {
+
+}
+
+In the example above, all paragraph elements are selected using a CSS selector. The selector (in this case) is p. Note that the CSS 
+selector essentially matches the HTML tag for that element, but without the angle brackets.
+
+Note: The p selector in the example above will select all <p> elements on the web page. Later in this course, you'll learn how to use 
+more specific CSS selectors so that you can select any element you want.
