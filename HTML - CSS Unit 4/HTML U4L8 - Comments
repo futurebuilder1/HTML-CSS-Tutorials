@@ -1,0 +1,65 @@
+/* Font of all elements */
+* {
+  font-family: Georgia;
+}
+
+h1, p {
+  color: DarkSlateGray;
+}
+
+p {
+  font-size: 18px;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals Around the World</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+  <h1>The Brown Bear</h1>
+  <!-- A section that describes the brown bear -->
+  <p>The brown bear (Ursus arctos) is native to parts of northern Eurasia and North America. Its conservation status is currently "Least Concern." There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear">Learn More</a>
+  <p>Here are some bear species:</p>
+  <ul>
+    <li>Arctos</li>
+    <li>Collarus</li>
+    <li>Horribilis</li>
+    <li>Nelsoni (extinct)</li>
+  </ul>
+  <p>The following countries have the largest populations of brown bears:</p>
+  <ol>
+    <li>Russia</li>
+    <li>United States</li>
+    <li>Canada</li>
+  </ol>
+  <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">
+    <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" /></a>
+</body> 
+</html>
+
+Just like HTML, you can also leave comments in your CSS file. CSS comments begin with /* and end with */, like so:
+
+/* This is a comment in CSS! */
+
+Including comments in your code is helpful for many reasons:
+1. They help you (and others) understand your code if you decide to come back and review it at a much later date.
+2. They allow you to experiment with new code, without having to delete old code.
+
+/* Paragraph Styling */
+p {
+  color: Blue;
+}
+
+In the example above, a comment is used to specify CSS styling for paragraphs.
+
+/*
+h1 {
+  color: Red;
+}
+*/
+
+In the example above, a valid CSS rule has been "commented out." This practice is useful when you want to experiment with new code 
+without having to delete old code.
